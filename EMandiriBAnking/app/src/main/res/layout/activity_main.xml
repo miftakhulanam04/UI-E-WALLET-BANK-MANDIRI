@@ -39,6 +39,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:elevation="9dp"
         android:orientation="vertical"
         android:layout_marginTop="-165dp"
         android:layout_marginRight="20dp"
@@ -67,11 +68,16 @@
                 android:layout_height="wrap_content"/>
 
         </LinearLayout>
+
         <LinearLayout
+            android:paddingRight="20dp"
+            android:layout_marginLeft="20dp"
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="50dp">
+            android:layout_height="65dp">
             <LinearLayout
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
                 android:layout_weight="1"
                 android:background="@drawable/t1"
                 android:layout_width="match_parent"
@@ -83,7 +89,13 @@
                     android:layout_height="match_parent"/>
             </LinearLayout>
 
+            <RelativeLayout
+                android:layout_width="15dp"
+                android:layout_height="match_parent"/>
+
             <LinearLayout
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
                 android:layout_weight="1"
                 android:background="@drawable/t2"
                 android:layout_width="match_parent"
@@ -95,7 +107,13 @@
                     android:layout_height="match_parent"/>
             </LinearLayout>
 
+            <RelativeLayout
+                android:layout_width="15dp"
+                android:layout_height="match_parent"/>
+
             <LinearLayout
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
                 android:layout_weight="1"
                 android:background="@drawable/t3"
                 android:layout_width="match_parent"
@@ -106,7 +124,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"/>
             </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="15dp"
+                android:layout_height="match_parent"/>
             <LinearLayout
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
                 android:layout_weight="1"
                 android:background="@drawable/t4"
                 android:layout_width="match_parent"
@@ -117,9 +141,152 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"/>
             </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:background="#E4E4E4"
+            android:layout_width="70dp"
+            android:layout_height="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_marginTop="-100dp"
+        android:background="@drawable/backgorund_utama"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:text="All Transaction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:gravity="right"
+                android:layout_weight="1"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:text="See All"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
 
         </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:background="@drawable/a1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_margin="10dp"
+                        android:src="@drawable/transaksi"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+                <TextView
+                    android:text="Transfer"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:background="@drawable/a2"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_margin="10dp"
+                        android:src="@drawable/wallet"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+                <TextView
+                    android:text="Bayar"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:background="@drawable/a3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_margin="10dp"
+                        android:src="@drawable/keranjang"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+                <TextView
+                    android:text="beli"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="80dp">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:background="@drawable/a4"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_margin="10dp"
+                        android:src="@drawable/credit"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"/>
+
+                </LinearLayout>
+                <TextView
+                    android:text="E-Money"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
     </LinearLayout>
-
-
 </LinearLayout>

@@ -3,12 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Anam/AndroidStudioProjects/EMandiriBAnking/app/src/main/res/drawable/a1.xml" value="0.1" />
+        <entry key="..\:/Users/Anam/AndroidStudioProjects/EMandiriBAnking/app/src/main/res/drawable/a2.xml" value="0.1" />
+        <entry key="..\:/Users/Anam/AndroidStudioProjects/EMandiriBAnking/app/src/main/res/drawable/a3.xml" value="0.1" />
+        <entry key="..\:/Users/Anam/AndroidStudioProjects/EMandiriBAnking/app/src/main/res/drawable/a4.xml" value="0.1" />
+        <entry key="..\:/Users/Anam/AndroidStudioProjects/EMandiriBAnking/app/src/main/res/drawable/backgorund_utama.xml" value="0.1" />
         <entry key="..\:/Users/Anam/AndroidStudioProjects/EMandiriBAnking/app/src/main/res/drawable/t1.xml" value="0.146" />
         <entry key="..\:/Users/Anam/AndroidStudioProjects/EMandiriBAnking/app/src/main/res/drawable/t2.xml" value="0.146" />
         <entry key="..\:/Users/Anam/AndroidStudioProjects/EMandiriBAnking/app/src/main/res/drawable/t3.xml" value="0.146" />
         <entry key="..\:/Users/Anam/AndroidStudioProjects/EMandiriBAnking/app/src/main/res/drawable/t4.xml" value="0.146" />
+        <entry key="..\:/Users/Anam/AndroidStudioProjects/EMandiriBAnking/app/src/main/res/drawable/transaksi.xml" value="0.1" />
         <entry key="..\:/Users/Anam/AndroidStudioProjects/EMandiriBAnking/app/src/main/res/drawable/transaksi_cepat.xml" value="0.146" />
         <entry key="..\:/Users/Anam/AndroidStudioProjects/EMandiriBAnking/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Anam/AndroidStudioProjects/EMandiriBAnking/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.134" />
       </map>
     </option>
   </component>
